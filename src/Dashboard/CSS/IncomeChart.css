@@ -1,0 +1,27 @@
+IncomeChart.module.css
+.main-container-incomeChart {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.color-card-incomeChart {
+background-color: #1e1d1d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.head-incomeChart {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.head-incomeChart h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.bar-incomeChart {
+  margin-top: 20px;
+}

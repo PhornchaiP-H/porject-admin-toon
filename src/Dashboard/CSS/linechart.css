@@ -1,0 +1,64 @@
+/* LiChart.module.css */
+.main-container-LC {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.color-card-LC {
+  background-color: #1e1d1d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.head-LC {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.head-LC h1 {
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.line-chart-container {
+  margin-top: 20px;
+}
+/* LiChart.module.css */
+.chartContainer {
+  margin-top: 20px;
+}
+
+/* เพิ่ม CSS สำหรับตัวแกน X */
+.xAxisLabel {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* เพิ่ม CSS สำหรับตัวแกน Y */
+.yAxisLabel {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* เพิ่ม CSS สำหรับ Tooltip */
+.tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/* เพิ่ม CSS สำหรับ Legend */
+.legend {
+  font-size: 26px;
+}
+
+/* เพิ่ม CSS สำหรับเส้นของกราฟ */
+.line {
+  stroke-width: 2;
+}
+

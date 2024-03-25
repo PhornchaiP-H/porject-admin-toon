@@ -1,0 +1,83 @@
+/* Incomecard.css */
+
+/* Styles for the main container */
+.income-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding: 20px;
+  max-width: 100%; /* เพิ่มบรรทัดนี้เพื่อไม่ให้ล้นหน้าจอ */
+  margin: 0 auto; 
+}
+
+/* Styles for the color card of the income table */
+.color-card-incomecard {
+   background-color: #1e1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+/* Styles for the head of the color card */
+.head {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+/* Styles for the head of the income card */
+.head-incomecard {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Styles for the table inside the color card */
+.table-incomecard {
+  width: 100%;
+}
+/* Styles for the maximum and minimum coin table */
+.maxtable {
+  width: 100%;
+}
+/* Styles for the table headers */
+table th {
+  padding: 10px;
+  background-color: #f2f2f2;
+  background-color: #2c2a2a;
+  text-align: left;
+}
+/* Styles for the table rows */
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+table p {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+/* Additional CSS for color-card-max */
+.color-card-max {
+  background-color: #df6dc9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+/* Additional CSS for color-card-Min */
+.color-card-Min {
+  background-color: #c11367;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+/* Styles for the table inside the color card of color-card-max */
+.color-card-max .maxtable {
+  width: 100%;
+}
+/* Styles for the table inside the color card of color-card-Min */
+.color-card-Min .Mintable {
+  width: 100%;
+}
